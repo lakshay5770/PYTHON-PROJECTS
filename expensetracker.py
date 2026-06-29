@@ -39,6 +39,7 @@ def add_expense(conn):
 
     except Exception as e:
         print("Error:", e)
+
 def view_expenses(conn):
     cursor = conn.cursor()
 
